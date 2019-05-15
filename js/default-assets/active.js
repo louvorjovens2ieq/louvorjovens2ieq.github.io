@@ -114,7 +114,9 @@
   // ***********************************
   if($.fn.scrollUp) {
     poca_window.scrollUp({
-      scrollSpeed: 2000,
+      // scrollSpeed: 10,
+      // scrollTop = 0, // For Safari
+      // scrollTop = 0, // For Chrome, Firefox, IE and Opera
       scrollText: '<i class="fa fa-angle-up"</i>'
     });
   }
