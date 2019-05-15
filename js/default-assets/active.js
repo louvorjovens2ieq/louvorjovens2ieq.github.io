@@ -114,7 +114,7 @@
   // ***********************************
   if($.fn.scrollUp) {
     poca_window.scrollUp({
-      scrollSpeed: 2000,
+      scrollSpeed: 20000,
       scrollText: '<i class="fa fa-angle-up"</i>'
     });
   }
