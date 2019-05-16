@@ -2,7 +2,7 @@
 
 ( function() {
 
-    var youtube = document.querySelectorAll( ".youtube" );
+    var youtube = document.querySelectorAll( ".youtube_img" );
     
     for (var i = 0; i < youtube.length; i++) {
         
