@@ -32,28 +32,32 @@
 ( function() {
 
     var modalCifra = document.querySelectorAll( ".modalCifra" );
-    var destin_modal_cifra = document.querySelectorAll(".modal_cifra") 
     
     for (var i = 0; i < modalCifra.length; i++) {
-        
-        // var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
 
+        // Ao clicar
         modalCifra[i].addEventListener( "click", function() {
 
+            // Cria iframe
             var iframe = document.createElement( "iframe" );
 
+                    // Define caracteristicas do iframe
                     iframe.setAttribute( "frameborder", "0" );
                     iframe.setAttribute( "width", "100%" );
                     iframe.setAttribute( "height", "500px" );
                     iframe.setAttribute( "scrolling", "auto" );
 
-                    iframe.setAttribute( "src", "https://www.cifraclub.com.br/"+ this.dataset.embed );
+                    if (screen.width <= 800 || screen.height <= 600)
+                        // Para telas menores, exibir a versão mobile da pagina
+                        iframe.setAttribute( "src", "https://m.cifraclub.com.br/"+ this.dataset.embed );
+                    else
+                        // Para telas maiores, exibir a versão desktop da pagina
+                        iframe.setAttribute( "src", "https://www.cifraclub.com.br/"+ this.dataset.embed );
 
-                    // alert(this.dataset.embed);
-
+                    // Adiciona iframe ao modal
                     document.querySelector(".modal_cifra").innerHTML = "";
                     document.querySelector(".modal_cifra").appendChild( iframe );
         } );    
     };
-    
+
 } )();
