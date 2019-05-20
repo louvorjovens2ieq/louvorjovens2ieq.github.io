@@ -142,7 +142,9 @@
               <h4>Abraça-Me</h4>
               <h5>David Quinlan</h5>
               <div class="music-meta-data lp_font">
-                  <p><a href="#" class="music-author">Tom: G</a> | <a href="#" class="music-catagory">Cifras</a> | <a href="#" class="music-duration">Letra</a></p>
+                  <p> <a href="#" class="music-author">Tom: G</a> | 
+                      <a href="#" class="music-catagory" data-toggle="modal" data-target="#modalCifra">Cifras</a> | 
+                      <a href="#" class="music-duration">Letra</a></p>
               </div>
             </div>
           </div>
@@ -1418,5 +1420,25 @@
   <script src="style.js"></script>
 
 </body>
+
+<!-- Modal -->
+<div class="modal fade" id="modalCifra" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalLongoExemplo">Cifra da Música</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+          <!-- <iframe name=cifraclub src=https://www.cifraclub.com.br/david-quinlan/abraca-me/imprimir.html width=100% height=500px frameborder=0 scrolling=auto> -->
+          <!-- </iframe> -->
+          <iframe name=cifraclub src=https://www.cifraclub.com.br/david-quinlan/abraca-me/ width=100% height=500px frameborder=0 scrolling=auto>
+          </iframe>
+      </div>
+    </div>
+  </div>
+</div>
 
 </html>
