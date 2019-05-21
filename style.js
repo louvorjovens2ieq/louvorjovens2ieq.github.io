@@ -44,7 +44,7 @@
                     // Define caracteristicas do iframe
                     iframe.setAttribute( "frameborder", "0" );
                     iframe.setAttribute( "width", "100%" );
-                    iframe.setAttribute( "height", "500px" );
+                    iframe.setAttribute( "height", "550px" );
                     iframe.setAttribute( "scrolling", "auto" );
 
                     if (screen.width <= 800 || screen.height <= 600)
