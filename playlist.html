@@ -151,7 +151,7 @@
               <div class="music-meta-data lp_font">
                   <p> <a class="music-author" style="cursor:pointer; font-size: 17px; font-style: bold;">Tom: G</a> | 
                       <a href="#" class="music-catagory modalCifra" data-toggle="modal" data-target="#modalCifra" data-embed="david-quinlan/abraca-me/" style="font-size: 17px; font-style: bold;">Cifra</a> |
-                      <a href="#" class="music-duration" style="font-size: 17px; font-style: bold;">Letra</a></p>
+                      <a href="#" class="music-duration modalLetra" data-toggle="modal" data-target="#modalLetra" data-embed="david-quinlan/119503/" style="font-size: 17px; font-style: bold;">Letra</a></p>
               </div>
             </div>
           </div>
@@ -1557,7 +1557,7 @@
 
 </body>
 
-<!-- Modal Cifras -->
+<!-- Modal Cifra -->
 <div class="modal fade" id="modalCifra" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
   <div class="modal-dialog modal-xl" role="document">
     <div class="modal-content">
@@ -1575,5 +1575,24 @@
     </div>
   </div>
 </div>
+
+<!-- Modal Letra -->
+<div class="modal fade" id="modalLetra" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="TituloModalLongoExemplo">Letra da Música</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <div class="modal_letra">
+            <!-- Aqui é adicionado automaticamente o site Letras via iframe -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </html>
