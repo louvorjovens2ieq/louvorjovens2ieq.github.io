@@ -51,7 +51,7 @@ Last Update: Dec 14, 2018
 @import url(css/animate.css);
 @import url(css/default-assets/classy-nav.css);
 @import url(css/owl.carousel.min.css);
-@import url(css/magnific-popup.css);
+/* @import url(css/magnific-popup.css); */
 @import url(css/default-assets/audioplayer.css);
 @import url(css/font-awesome.min.css);
 /* :: 1.0 Reboot CSS */
@@ -393,11 +393,11 @@ ul {
     .classy-nav-container {
       padding: 0 15px; } }
   .classy-nav-container .classy-navbar {
-    height: 80px;
+    height: 65px;
     padding: 0; }
     @media only screen and (max-width: 767px) {
       .classy-nav-container .classy-navbar {
-        height: 70px; } }
+        height: 55px; } }
     @media only screen and (max-width: 767px) {
       .classy-nav-container .classy-navbar .nav-brand {
         max-width: 90px;
@@ -417,11 +417,13 @@ ul {
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .classy-nav-container .classy-navbar .classynav ul li a {
           border-bottom: none;
-          font-size: 14px; } }
+          font-size: 22px;
+          margin-bottom: 50px; } }
       @media only screen and (max-width: 767px) {
         .classy-nav-container .classy-navbar .classynav ul li a {
           border-bottom: none;
-          font-size: 14px; } }
+          font-size: 22px;
+          margin-bottom: 10px; } }
     .classy-nav-container .classy-navbar .classynav ul li.cn-dropdown-item ul li a {
       font-size: 14px;
       text-transform: capitalize; }
@@ -522,13 +524,16 @@ ul {
 
 .top-social-area {
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  margin-left: 20px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .top-social-area {
-      margin-left: 30px; } }
+      margin-left: 20px;
+      margin-top: 20px; } }
   @media only screen and (max-width: 767px) {
     .top-social-area {
-      margin-left: 30px; } }
+      margin-left: 20px;
+      margin-top: 20px; } }
   .top-social-area a {
     display: inline-block;
     font-size: 16px;
