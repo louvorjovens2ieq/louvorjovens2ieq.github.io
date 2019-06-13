@@ -777,7 +777,7 @@ ul {
     z-index: 1; }
     @media only screen and (max-width: 767px) {
       .poca-projects-menu .btn {
-        font-size: 14px; } }
+        font-size: 20px; } }
     .poca-projects-menu .btn.active {
       color: #232323; }
       .poca-projects-menu .btn.active::after {
@@ -939,7 +939,7 @@ ul {
       .breadcumb--con .breadcrumb .breadcrumb-item,
       .breadcumb--con .breadcrumb .breadcrumb-item > a,
       .breadcumb--con .breadcrumb .breadcrumb-item.active {
-        font-size: 14px; } }
+        font-size: 18px; } }
     .breadcumb--con .breadcrumb .breadcrumb-item:focus, .breadcumb--con .breadcrumb .breadcrumb-item:hover,
     .breadcumb--con .breadcrumb .breadcrumb-item > a:focus,
     .breadcumb--con .breadcrumb .breadcrumb-item > a:hover,
